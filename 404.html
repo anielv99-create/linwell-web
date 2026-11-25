@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https://nkpkxfywmvyxzwuakbpw.supabase.co; connect-src https://nkpkxfywmvyxzwuakbpw.supabase.co; base-uri 'none'; form-action 'none'; frame-ancestors 'none'">
+<title>Linwell</title>
+<link rel="icon" type="image/png" href="/logo.png">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/f.css">
+</head>
+<body>
+<!--
+  Linwell · página de la placa QR (getlinwell.com/f/<token>) y 404 normal para el resto.
+  GitHub Pages no tiene rutas: cualquier dirección que no existe muestra este archivo, y f.js
+  decide qué enseñar. Solo usa la Edge Function pública thing-public (sin claves).
+  Nunca muestra teléfonos, direcciones, notas médicas ni datos de la familia (ni le llegan).
+-->
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="/"><img src="/logo.png" alt="" width="32" height="32">Linwell</a>
+  </div>
+</header>
+<main class="wrap find" id="app">
+  <p class="find-loading" id="loading" aria-live="polite">…</p>
+</main>
+<footer class="foot">
+  <div class="wrap"><a href="/" id="home-link">getlinwell.com</a> · <a href="/privacy.html" id="privacy-foot">Privacy</a></div>
+</footer>
+<script src="/f.js"></script>
+</body>
+</html>
